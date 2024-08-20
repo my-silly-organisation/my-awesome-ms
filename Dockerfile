@@ -1,5 +1,5 @@
 # Build Stage
-FROM lacion/alpine-golang-buildimage:1.13 AS build-stage
+FROM lacion/alpine-golang-buildimage:1.18 AS build-stage
 
 LABEL app="build-my-awesome-ms"
 LABEL REPO="https://github.com/lacion/my-awesome-ms"
